@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "40410962-ae00-453c-92ee-5d1dd95d56ba",
+		"name": "Ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27468832",
+		"_collection_link": "https://crimson-escape-6619.postman.co/workspace/Team-Workspace~439c841b-24a0-4569-8827-67c3cfe44e06/collection/27468832-40410962-ae00-453c-92ee-5d1dd95d56ba?action=share&source=collection_link&creator=27468832"
+	},
+	"item": [
+		{
+			"name": "storesList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/addStores"
+			},
+			"response": []
+		},
+		{
+			"name": "orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/orders"
+			},
+			"response": []
+		},
+		{
+			"name": "ordersproduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/orders_products/1"
+			},
+			"response": []
+		},
+		{
+			"name": "productdetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/product_details/2"
+			},
+			"response": []
+		},
+		{
+			"name": "getCartList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/getCartLists"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "orderdetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/orderDetails"
+			},
+			"response": []
+		},
+		{
+			"name": "pdf",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/pdf"
+			},
+			"response": []
+		}
+	]
+}
